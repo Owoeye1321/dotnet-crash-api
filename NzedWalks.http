@@ -1,0 +1,6 @@
+@NzedWalks_HostAddress = http://localhost:5166
+
+GET {{NzedWalks_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
