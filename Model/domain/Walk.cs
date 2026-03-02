@@ -11,7 +11,7 @@ namespace NzedWalks.Model.Domain
         public Guid RegionId { get; set; }
         public Guid DifficultyId { get; set; }
 
-        public Regions Region { get; set; }
+        public Region Region { get; set; }
         public Difficulty Difficulty { get; set; }
     }
 }
